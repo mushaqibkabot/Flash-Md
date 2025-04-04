@@ -12,7 +12,7 @@ const DATABASE_URL = process.env.DATABASE_URL === undefined ? databasePath : pro
 
 module.exports = {
     session: process.env.SESSION_ID || 'FLASH-MD=>3cJREZBQ#gSBbIp7sRPgS6Nqx8hw2bIMIHpgwD8Uuqz7g_l-CXdw',
-    PREFIXES: (process.env.PREFIX || '').split(',').map(prefix => prefix.trim()).filter(Boolean),
+    PREFIXES: (process.env.PREFIX || '.').split(',').map(prefix => prefix.trim()).filter(Boolean),
     OWNER_NAME: process.env.OWNER_NAME || "⟹P͙r͙A͜͡ᴿIм⥃MUشAq!بKA",
     OWNER_NUMBER: process.env.OWNER_NUMBER || "252907027756",
     AUTO_LIKE: process.env.STATUS_LIKE || "on",
