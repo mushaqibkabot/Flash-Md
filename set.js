@@ -11,10 +11,10 @@ const databasePath = path.join(__dirname, './database.db');
 const DATABASE_URL = process.env.DATABASE_URL === undefined ? databasePath : process.env.DATABASE_URL;
 
 module.exports = {
-    session: process.env.SESSION_ID || 'FLASH-MD-WA-BOT;;;=>',
+    session: process.env.SESSION_ID || 'FLASH-MD=>yMIT3YTC#U1Rub03_IQB7MF0k-3O0qKhUHlDP27lCDFDm4dIORvM',
     PREFIXES: (process.env.PREFIX || '').split(',').map(prefix => prefix.trim()).filter(Boolean),
-    OWNER_NAME: process.env.OWNER_NAME || "France King",
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "254105915061",
+    OWNER_NAME: process.env.OWNER_NAME || "⟹P͙r͙A͜͡ᴿIм⥃MUشAq!بKA",
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "252907027756",
     AUTO_LIKE: process.env.STATUS_LIKE || "off",
     AUTO_READ_STATUS: process.env.AUTO_VIEW_STATUS || "on",
     AUTOREAD_MESSAGES: process.env.AUTO_READ_MESSAGES || "on",
@@ -23,18 +23,18 @@ module.exports = {
     A_REACT: process.env.AUTO_REACTION || 'on',
     L_S: process.env.STATUS_LIKE || 'on',
     AUTO_BLOCK: process.env.BLOCK_ALL || 'off',
-    URL: process.env.MENU_LINKS || 'https://files.catbox.moe/c2jdkw.jpg',
+    URL: process.env.MENU_LINKS || 'https://files.catbox.moe/x7ygl0.jpg',
     MODE: process.env.BOT_MODE || "private",
     PM_PERMIT: process.env.PM_PERMIT || 'on',
     HEROKU_APP_NAME: process.env.HEROKU_APP_NAME,
     ANTIVIEW: process.env.VIEWONCE,
     HEROKU_API_KEY: process.env.HEROKU_API_KEY,
-    WARN_COUNT: process.env.WARN_COUNT || '3',
-    PRESENCE: process.env.PRESENCE || '',
-    ADM: process.env.ANTI_DELETE || 'on',
-    TZ: process.env.TIME_ZONE || 'Africa/Nairobi',
+    WARN_COUNT: process.env.WARN_COUNT || '2',
+    PRESENCE: process.env.PRESENCE || 'on',
+    ADM: process.env.ANTI_DELETE || 'off',
+    TZ: process.env.TIME_ZONE || 'Africa/Somalia',
     DP: process.env.STARTING_MESSAGE || "on",
-    ANTICALL: process.env.ANTICALL || 'on',
+    ANTICALL: process.env.ANTICALL || 'off',
     DATABASE_URL,
     DATABASE: DATABASE_URL === databasePath
         ? "postgresql://flashmd_user:JlUe2Vs0UuBGh0sXz7rxONTeXSOra9XP@dpg-cqbd04tumphs73d2706g-a/flashmd"
